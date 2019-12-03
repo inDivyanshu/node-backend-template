@@ -1,0 +1,25 @@
+{
+  "name": "vendor-backend",
+  "version": "1.0.0",
+  "description": "this node application correspondes to wigglypuff vendor app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "wigglypuff",
+    "vendor"
+  ],
+  "author": "divyanshu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "custom-env": "^1.0.2",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "request-promise": "^4.2.5"
+  }
+}
